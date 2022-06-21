@@ -1,0 +1,16 @@
+.form3 {
+    position: relative;
+    margin-top: 300px;
+    left: 34%;
+    background-color: white;
+    width: 30%;
+    height: 20vh;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bye-note {
+    position: absolute;
+    left: 4%;
+    font-size: 2rem;
+}

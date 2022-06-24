@@ -31,25 +31,12 @@ const Gallery = () => {
     }
   };
 
-  function handleClick(ID) { //creates border
-    setMove(true);
-    var childImages = document.getElementById("form-pic").children;
-    var i;
-
-    // clear any other borders that might be set
-    for ( i = 0; i < childImages.length; i++ ) {
-      childImages[i].style.border = '';
-    }
-
-    document.getElementById(ID).style.border="5px solid orange";
-  }
-
   return (
     <div>
-      <form className='form2' >
+      <form className='form2'>
         <h5 className='reg-title3'>Turn the screen around and let the patient choose a theme: </h5>
-        <div className='form-pic row' id="form-pic" onClick={()=> handleClick("picture-gallery")}>
-          {images.length > 0 && images.map((theme) => <Theme {... theme} />) } 
+        <div className='form-pic row' id="form-pic" onClick={() => setMove(true)}>
+          {images.length > 0 && images.map((theme) => <Theme {... theme}/>) } 
           
         </div>
         <input className="btn2" type="submit" value="Submit" onClick={navigateToEnd}/>

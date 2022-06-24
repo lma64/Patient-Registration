@@ -12,7 +12,7 @@
 .form-pic {
     position: absolute;
     top: 15%;
-    left: 3.2%;
+    left: 4%;
     width: 100%;
 }
 
@@ -29,10 +29,12 @@ img {
 .picture-gallery img {
     width: 100%;
     transition: 0.5s all ease-in-out;
+    
 }
 
 .picture-gallery:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .reg-title3 {
@@ -48,16 +50,3 @@ img {
     width: 10%;
 }
 
-/* @media screen and (max-width: 1894px) {
-    .form2 {
-        height: 120vh;
-        margin-bottom: 50px;
-    }
-    
-    .form-pic {
-        position: absolute;
-        top: 8%;
-        left: 20%;
-        width: 70%;
-    }
-  } */

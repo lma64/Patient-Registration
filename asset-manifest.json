@@ -1,19 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e7d60a7.css",
-    "main.js": "/static/js/main.49ede976.js",
-    "static/js/787.338366e2.chunk.js": "/static/js/787.338366e2.chunk.js",
-    "static/media/The_Incredibles.jpg": "/static/media/The_Incredibles.c9f9bbc13ac1d7895190.jpg",
-    "static/media/Toystory4.jpg": "/static/media/Toystory4.c144c76b28ec5aa9f3c0.jpg",
-    "static/media/Aliceinwonderland.webp": "/static/media/Aliceinwonderland.77bdfce185ab6f781854.webp",
-    "static/media/Frozen2.jpg": "/static/media/Frozen2.aa5c01cc50e5a5138532.jpg",
-    "index.html": "/index.html",
-    "main.5e7d60a7.css.map": "/static/css/main.5e7d60a7.css.map",
-    "main.49ede976.js.map": "/static/js/main.49ede976.js.map",
-    "787.338366e2.chunk.js.map": "/static/js/787.338366e2.chunk.js.map"
+    "main.css": "/registration-form/static/css/main.b912dc8c.css",
+    "main.js": "/registration-form/static/js/main.a7898d44.js",
+    "static/js/787.338366e2.chunk.js": "/registration-form/static/js/787.338366e2.chunk.js",
+    "index.html": "/registration-form/index.html",
+    "main.b912dc8c.css.map": "/registration-form/static/css/main.b912dc8c.css.map",
+    "main.a7898d44.js.map": "/registration-form/static/js/main.a7898d44.js.map",
+    "787.338366e2.chunk.js.map": "/registration-form/static/js/787.338366e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e7d60a7.css",
-    "static/js/main.49ede976.js"
+    "static/css/main.b912dc8c.css",
+    "static/js/main.a7898d44.js"
   ]
 }
